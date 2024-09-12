@@ -1,0 +1,16 @@
+CSS RULE
+h1=selector
+font-size:=property 20px;=value ←DECLARATION/STYLE
+  declaration block
+          ⬇
+      h1 {
+        color: blue;
+        text-align: center;
+        font-size: 20px;
+      }
+<link href="file" rel"stylesheet" />
+    HIDE CSS= /* test */
+id using #
+class using .
+
+PSEUDO CLASS

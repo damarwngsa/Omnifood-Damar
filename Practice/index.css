@@ -1,0 +1,153 @@
+body {
+  color: beige;
+  text-align: center;
+  font-family: sans-serif;
+  /* display: flex; */
+  flex-direction: column;
+  /* border: solid 3px #737373; */
+  width: 350px;
+  padding-left: 130px;
+  /* padding: 20px; */
+  /* background-color: beige; */
+}
+
+article {
+  background-color: rgb(16, 80, 16);
+  background-blend-mode: multiply;
+}
+
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+h1 {
+  text-transform: uppercase;
+  /* text-align: left; */
+  padding: 7px;
+  padding-bottom: 7px;
+  margin: 10px;
+  /* background-color: blanchedalmond; */
+}
+
+.biodata {
+  padding: 7px;
+  margin: 7px;
+  margin-bottom: 3px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 17px;
+  /* background-color: red; */
+}
+
+div {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 3px;
+  margin: 15px;
+  /* background-color: blue; */
+}
+
+.username {
+  border: solid grey 2px;
+  width: 97px;
+  margin: 10px;
+  padding: 5px;
+  /* display: flex; */
+  /* background-color: aqua; */
+}
+
+.height {
+  border: solid grey 2px;
+  width: 97px;
+  margin: 10px;
+  padding: 5px;
+  /* position: relative; */
+  /* background-color: aqua; */
+}
+
+.old {
+  border: solid grey 2px;
+  width: 97px;
+  margin: 10px;
+  padding: 5px;
+  /* display: flex; */
+  /* position: relative; */
+  /* background-color: aqua; */
+}
+
+.gender {
+  border: solid grey 2px;
+  width: 97px;
+  margin: 10px;
+  padding: 5px;
+  /* position: relative; */
+  /* background-color: aqua; */
+}
+
+.buttonA {
+  display: block;
+  margin: 7px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  padding: 5px;
+  margin-right: 15px;
+  color: beige;
+  position: relative;
+  background-color: rgb(16, 80, 16);
+  float: right;
+}
+
+.buttonA:hover {
+  color: beige;
+  background-color: rgb(16, 80, 16);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.buttonA:visited {
+  color: black;
+}
+
+.buttonA:active {
+  color: black;
+  background-color: white;
+  font-style: italic;
+  /* cursor: pointer; */
+}
+
+.buttonB {
+  display: block;
+  margin: 7px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  padding: 5px;
+  margin-left: 15px;
+  color: beige;
+  position: relative;
+  background-color: rgb(16, 80, 16);
+  float: left;
+}
+
+.buttonB:hover {
+  color: beige;
+  background-color: rgb(16, 80, 16);
+  text-decoration: none;
+  cursor: pointer;
+  /* border: solid rgb(3, 26, 3); */
+}
+
+.buttonB:visited {
+  color: black;
+}
+
+.buttonB:active {
+  color: black;
+  background-color: white;
+  font-style: italic;
+  /* cursor: pointer; */
+}

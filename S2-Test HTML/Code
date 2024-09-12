@@ -1,0 +1,49 @@
+structure for html must
+    <!DOCTYPE html>
+    <meta = meta data (data tenang)>
+    <html>
+      for connecting src,link,javascript (HERE)
+    <head> 
+      <-- --> = hide element from browser
+      <p ="paragraph">
+      <h1,2,3,4,5,6 ="heading">
+      = MAKE TEXT BOLD contain
+      <em> </em> = Italic Font/huruf miring
+      <ol>
+        <li></li>
+      </ol>
+    =ol(ordered list)For automatic replace number
+      ul(unordered list)
+    <ul></ul>
+    <a>=anchor</a>
+    <nav = navigation></nav>
+    format image
+    alt
+    width
+    height  
+    <a href = hyperlink> that show image or different webpage
+    <link href= different with hyperlink the function of link example: HTML linked to style css
+    <link= style css, js(javascript)./>
+    <img src="p.jpg" alt,width,height for image>
+    
+    
+    
+    
+    <pre></pre>
+    <br> single line break
+    <hr> use for separate/misahin konten
+    <iframe>inline frame</iframe>
+    <strong> for important </strong>
+    <b>bold</b>
+    <i>italic</i>
+    <em>emphasize</em>
+    <small> small text </small>
+    <del> striped delete text </del>
+    <ins>inserted text</ins>
+    <sub>subscript</sub>
+    <sup>superscript</sup>
+    
+    
+    </head>
+    </html>
+  </p>
